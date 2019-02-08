@@ -1,0 +1,45 @@
+export const STORE_URL = {
+  appStoreURL: 'https://s3-eu-west-1.amazonaws.com/mobile-studio/share/share-ios-link.html',
+  playStoreURL: 'https://s3-eu-west-1.amazonaws.com/mobile-studio/share/share-android-link.html',
+  deepLinkURL: 'https://s3-eu-west-1.amazonaws.com/mobile-studio/share/index.html',
+  emailSubject: 'adappt studio'
+}
+export const LANGUAGES = [
+  {
+    name: "English",
+    code: "en",
+    primaryLabel: "Language",
+    secondaryLabel: "Select Language",
+    quickMenu: "Quick Menu",
+    search: "Search",
+    searchHere: "Search here",
+    noContent: "No Content Available",
+    noResultSearch: "No results found for",
+    favorites: "Favorites",
+    noFavorite: "No Favorites Found",
+    switchLanguage: "Switching Language...",
+    changeLanguageConfirmation1: "Your current language is",
+    changeLanguageConfirmation2: "Do you want to switch to ",
+    confirmation: "Confirmation",
+    ok: "OK",
+    cancel: "Cancel",
+    message1: "The content you are trying to view is in",
+    message2: "To view it please switch to",
+    message3: "and click the shared link again.",
+    related: "Related Content",
+    shareText1: "Somebody has shared content from the adappt studio app! If you have this app installed on your device please click the link below to view the shared content",
+    shareText2: "If you do not yet have the app installed on your device, you may download it here:",
+    notificationTitle: "Notification",
+    externalNotificationMsg: "This is an external link. Do you want to leave adappt studio app?",
+    checkingUpdate: "Checking for updates.",
+    noUpdate: "Data is upto date.",
+    fetchingUpdate: "Fetching updates.",
+    updateSuccess: "App updated successfully.",
+    serverIssue: "Updation failed.",
+    lowInternet: "Low internet connection.",
+    noInternet: "No internet connection.",
+    noCountry: "No Countries found",
+    requestFailure: "Web page is not available",
+    internetLost: "Please try again later"
+  }
+];

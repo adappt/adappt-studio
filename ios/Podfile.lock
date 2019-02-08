@@ -1,0 +1,16 @@
+PODS:
+  - Flurry-iOS-SDK/FlurrySDK (9.3.0)
+
+DEPENDENCIES:
+  - Flurry-iOS-SDK/FlurrySDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Flurry-iOS-SDK
+
+SPEC CHECKSUMS:
+  Flurry-iOS-SDK: 43afe11656872692de232f580ef0a8a68b0b47c9
+
+PODFILE CHECKSUM: d568a13d727c2bc1796191995e59c64b4f72fb02
+
+COCOAPODS: 1.5.3

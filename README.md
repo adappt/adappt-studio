@@ -1,13 +1,13 @@
 <h1 align="center">
   <br>
-    <img src="./media/logo.png" alt="Adappt Studio" width="200">
+    <img src="./media/logo.png" alt="adappt.studio" width="200">
   <br>
   adappt studio
   <br/>
   <br/>
 </h1>
 
-<p align="center"><img src="./media/hero.png" alt="adappt studio hero"></p>
+<p align="center"><img src="./media/hero.png" alt="adappt.studio screenshot"></p>
 
 ## Overview
 
@@ -26,7 +26,7 @@ adappt studio is a content rendering platform for mobile devices. User will be a
 * Support both IOS and Android
 
 ## How To Use
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
 ```bash
 # Clone this repository
 $ git clone https://github.com/adappt/mobile-publishing-studio
@@ -38,20 +38,16 @@ $ cd mobile-publishing-studio
 $ npm install
 $ react-native link
 
-# For MACOS Users - Pod install
+# For macOS Users - Pod install
 $ cd ios
 $ pod install
 
-# Run the app MACOS via Xcode
-$ open ios/AdapptStudio.xcworkspace (file in xcode)
-
-# Run the app MACOS via Xcode
+# iOS
 $ react-native run-ios
 
-# Run the app Android via Terminal
+# Android
 $ react-native run-android
 ```
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use node from the command prompt.
 
 ## You may also like...
 - [Billable Hours](https://github.com/adappt/billable-hours) - A Task Management for employees

@@ -1,0 +1,48 @@
+{
+  "name": "AdapptStudio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "normalizr": "^3.2.4",
+    "react": "16.7.0",
+    "react-native": "0.54.3",
+    "react-native-collapsible": "^0.12.0",
+    "react-native-device-info": "^0.21.5",
+    "react-native-flags": "git+https://github.com/mathankadappt/react-native-flags.git",
+    "react-native-flurry-analytics": "^3.0.2",
+    "react-native-fs": "^2.13.3",
+    "react-native-highlight-words": "^1.0.1",
+    "react-native-iphone-x-helper": "^1.0.2",
+    "react-native-modal": "^6.0.0",
+    "react-native-photo-view": "^1.5.2",
+    "react-native-render-html": "^3.9.3",
+    "react-native-search-box": "0.0.15",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-swipe-gestures": "github:blackstar217/react-native-swipe-gestures",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "git+https://github.com/mathankadappt/react-navigation.git",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "string": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-jest": "24.0.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "24.0.0",
+    "react-test-renderer": "16.7.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
